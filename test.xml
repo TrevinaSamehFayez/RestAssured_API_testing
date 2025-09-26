@@ -1,0 +1,12 @@
+<suite name="API Suite">
+    <test name="Booking Tests">
+        <classes>
+            <class name="API_Testing.Tests.GetBookingTest"/>
+            <class name="API_Testing.Tests.CreateBookingTest"/>
+            <class name="API_Testing.Tests.GetBookingDetailsTest"/>
+            <class name="API_Testing.Tests.UpdateBookingTest"/>
+            <class name="API_Testing.Tests.PartialUpdateBookingTest"/>
+            <class name="API_Testing.Tests.DeleteBookingTest"/>
+        </classes>
+    </test>
+</suite>
