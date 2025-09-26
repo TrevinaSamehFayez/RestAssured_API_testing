@@ -25,6 +25,7 @@ public class BaseTest {
     }
 
     public void assertions(Response response, boolean isDelete) {
+        Assert.assertTrue(response.getTime()<1000);
         if (isDelete) {
             Assert.assertEquals(response.getStatusCode(), 201);
 
